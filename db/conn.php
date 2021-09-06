@@ -1,17 +1,17 @@
 <?php 
     // Development Connection
-    $host = '127.0.0.1';
-    $db = 'summit_db';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
+    //$host = '127.0.0.1';
+    //$db = 'summit_db';
+    //$user = 'root';
+    //$pass = '';
+    //$charset = 'utf8mb4';
 
     //Remote Database Connection
-    //$host = 'remotemysql.com';
-    //$db = 'NC1HPsPMvA';
-    //$user = 'NC1HPsPMvA';
-    //$pass = 'rqUDdNcsXH';
-    //$charset = 'utf8mb4';
+    $host = 'sql5.freemysqlhosting.net';
+    $db = 'sql5435011';
+    $user = 'sql5435011';
+    $pass = 'fi2PKqFZVX';
+    $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
